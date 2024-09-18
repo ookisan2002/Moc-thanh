@@ -1,0 +1,564 @@
+@import url("../../../root.css");
+@import url("../../../global.css");
+@import url("../../../Components/Button/styles.css");
+
+.productDetailSection {
+  background: var(--BG, #f9f5ea);
+}
+
+.productDetailSection .product {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.productDetailSection .productImage {
+  position: sticky;
+  top: 0;
+  padding-top: 4.5rem;
+  width: 34.5rem;
+  height: fit-content;
+}
+
+.productDetailSection .selectedImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productDetailSection .selectedImg img {
+  width: 32.2045rem;
+  height: 25.51638rem;
+  margin: 0 auto 5.73rem;
+}
+
+.productDetailSection .imageList {
+  display: flex;
+  width: 35.75rem;
+}
+
+.productDetailSection .imageList .imageItem {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 7.6875rem !important;
+  height: 7.6875rem;
+  margin: 0 0.625rem;
+}
+
+.productDetailSection .imageList .imageItem .selectedBorder {
+  display: none;
+}
+
+.productDetailSection .imageList .swiper-slide-thumb-active .selectedBorder {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.productDetailSection .product .productInfor {
+  width: 35.8125rem;
+  padding-top: 3.5rem;
+}
+
+.productDetailSection .titleMb {
+  display: none;
+}
+
+.productDetailSection .productInfor .productName {
+  font-family: Philosopher;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.055rem;
+  background: var(
+    --Text-Title-text-2,
+    linear-gradient(91deg, #515954 -6.81%, #2a603e 56.73%, #9db6a6 121.41%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.productDetailSection .productInfor .status {
+  display: flex;
+  border-bottom: 1px solid rgba(48, 48, 48, 0.1);
+  padding-bottom: 0.5rem;
+}
+
+.productDetailSection .productInfor .status p {
+  color: var(--Foundation-Grey-grey-500, #5c5c5c);
+  font-family: "SVN-Helvetica Now";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 1.6rem */
+  letter-spacing: -0.03125rem;
+  margin-right: var(--48, 3rem);
+}
+
+.productDetailSection .productInfor .status p span {
+  color: var(--Text-Text-Body-Sub, #a68556);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.productDetailSection .productInfor .productDetailTitle {
+  color: var(--Foundation-Grey-grey-800, #333);
+  font-family: "SVN-Helvetica Now";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.03125rem;
+  margin: 2rem 0 0.5rem;
+}
+
+.productDetailSection .productInfor .pack {
+  display: flex;
+}
+
+.productDetailSection .productInfor .pack p {
+  border-radius: 0.25rem;
+  border: 1px solid var(--Foundation-Grey-grey-500, #5c5c5c);
+  padding: 0.5rem 0.9375rem;
+  margin-right: 0.75rem;
+
+  color: var(--Foundation-Grey-grey-500, #5c5c5c);
+  font-family: "SVN-Helvetica Now";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.0225rem;
+}
+
+.productDetailSection .productInfor .productDesc {
+  color: var(--Foundation-Grey-grey-500, #5c5c5c);
+
+  /* WEB/Sub/SUB1/18 - R */
+  font-family: "SVN-Helvetica Now";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 1.8rem */
+  letter-spacing: -0.0225rem;
+}
+
+.productDetailSection .productInfor .productDesc ul {
+  list-style: none;
+  color: var(--Foundation-Grey-grey-500, #5c5c5c);
+  font-family: "SVN-Helvetica Now";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 1.8rem */
+  letter-spacing: -0.0225rem;
+}
+
+.productDetailSection .productInfor .buttonGroup {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.productDetailSection .productInfor .buttonGroup .order {
+  width: 11.834rem;
+  margin-right: 1rem;
+}
+
+.productDetailSection .productInfor .buttonGroup .gradientBorder {
+  width: 14.25rem;
+  height: 3.1465rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  background: var(
+    --Background-Green-Yellow,
+    linear-gradient(90deg, #32890e -6.93%, #c39b0d 100%)
+  );
+  overflow: hidden;
+}
+
+.productDetailSection .productInfor .buttonGroup .viewDistributionSystem {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 2rem;
+  display: flex;
+  padding: 0.25rem 2rem;
+  justify-content: center;
+  align-items: center;
+  background: var(--BG, #f9f5ea);
+}
+
+.productDetailSection .productInfor .buttonGroup .viewDistributionSystem svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.productDetailSection .productInfor .buttonGroup .viewDistributionSystem p {
+  background: linear-gradient(90deg, #515954 -7.47%, #2a603e 99.74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "SVN-Helvetica Now";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.productDetailSection .productInfor .userPersona {
+  color: var(--Foundation-Grey-grey-500, #5c5c5c);
+  font-family: "SVN-Helvetica Now";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 1.3rem */
+}
+
+.productDetailSection .productInfor .certi {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.productDetailSection .productInfor .certi img {
+  width: 5.75rem;
+  height: 5.75rem;
+  margin-right: 1.5rem;
+}
+
+.productDetailSection .tabNavi {
+  margin-top: 4.67rem;
+  display: flex;
+  justify-content: center;
+}
+
+.productDetailSection .tabNavi input[type="radio"] {
+  display: none;
+}
+
+.productDetailSection .tabNavi label {
+  color: var(--Foundation-Grey-grey-700, #414141);
+  font-family: "SVN-Helvetica Now";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 1.05rem */
+  padding: 1rem;
+  width: 15.625rem;
+  height: 3.5625rem;
+  text-align: center;
+  border-bottom: 1px solid var(--Foundation-Grey-grey-100, #ccc);
+}
+
+.productDetailSection .tabNavi input[type="radio"]:checked + label {
+  border-color: #165e4c;
+}
+
+.productDetailSection .detailContainer {
+  width: 62.5rem;
+  margin: 2rem auto 0rem;
+  color: var(--Foundation-Grey-grey-500, #5c5c5c);
+  padding-left: 1rem;
+  font-family: "SVN-Helvetica Now";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.0225rem;
+}
+
+@media (max-width: 639px) {
+  .productDetailSection {
+    background: var(--BG, #f9f5ea);
+  }
+
+  .productDetailSection .product {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .productDetailSection .productImage {
+    position: unset;
+    top: 0;
+    padding-top: 4.5rem;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .productDetailSection .productImage .titleMb {
+    display: block;
+  }
+
+  .productDetailSection .productInfor .status {
+    display: none;
+  }
+
+  .productDetailSection .productInfor .productName {
+    display: none;
+  }
+
+  .productDetailSection .selectedImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .productDetailSection .selectedImg img {
+    width: 20.01113rem;
+    height: 16.9375rem;
+    margin: 0 auto 5.73rem;
+  }
+
+  .productDetailSection .imageList {
+    display: flex;
+    width: 20rem;
+  }
+
+  .productDetailSection .imageList .imageItem {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 4.5rem !important;
+    height: 4.5rem;
+    margin: 0 0.25rem;
+  }
+
+  .productDetailSection .imageList .imageItem .selectedBorder {
+    display: none;
+  }
+
+  .productDetailSection .imageList .swiper-slide-thumb-active .selectedBorder {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .productDetailSection .product .productInfor {
+    width: 100%;
+    padding-top: 3rem;
+  }
+
+  .productDetailSection .titleMb .productName {
+    font-family: Philosopher;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    background: var(
+      --Text-Title-text-2,
+      linear-gradient(91deg, #515954 -6.81%, #2a603e 56.73%, #9db6a6 121.41%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.31rem;
+    display: block;
+    text-align: center;
+  }
+
+  .productDetailSection .titleMb .status {
+    padding-bottom: 3.31rem;
+  }
+
+  .productDetailSection .titleMb .status p {
+    color: var(--Foundation-Grey-grey-500, #5c5c5c);
+    font-family: "SVN-Helvetica Now";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: center;
+  }
+
+  .productDetailSection .titleMb .status p span {
+    color: var(--Text-Text-Body-Sub, #a68556);
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 140%;
+  }
+
+  .productDetailSection .productInfor .productDetailTitle {
+    color: var(--Foundation-Grey-grey-800, #333);
+    font-family: "SVN-Helvetica Now";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.03125rem;
+    margin: 1.25rem 0 0.25rem;
+  }
+
+  .productDetailSection .productInfor .pack {
+    display: flex;
+  }
+
+  .productDetailSection .productInfor .pack p {
+    border-radius: 0.25rem;
+    border: 1px solid var(--Foundation-Grey-grey-500, #5c5c5c);
+    padding: 0.5rem 0.9375rem;
+    margin-right: 0.75rem;
+
+    color: var(--Foundation-Grey-grey-500, #5c5c5c);
+    font-family: "SVN-Helvetica Now";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.00938rem;
+  }
+
+  .productDetailSection .productInfor .productDesc {
+    color: var(--Foundation-Grey-grey-500, #5c5c5c);
+    font-family: "SVN-Helvetica Now";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 1.225rem */
+    letter-spacing: 0.03125rem;
+  }
+
+  .productDetailSection .productInfor .productDesc ul {
+    list-style: none;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 1.225rem */
+    letter-spacing: 0.03125rem;
+  }
+
+  .productDetailSection .productInfor .buttonGroup {
+    display: flex;
+    margin-top: 1.25rem;
+  }
+
+  .productDetailSection .productInfor .buttonGroup .order {
+    width: 9.56rem;
+    height: 2.5rem;
+    margin-right: 0.75rem;
+    font-size: 0.8125rem;
+    text-wrap: nowrap;
+    padding: unset !important;
+  }
+
+  .productDetailSection .productInfor .buttonGroup .gradientBorder {
+    width: 11.13rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background: var(
+      --Background-Green-Yellow,
+      linear-gradient(90deg, #32890e -6.93%, #c39b0d 100%)
+    );
+    overflow: hidden;
+  }
+
+  .productDetailSection .productInfor .buttonGroup .viewDistributionSystem {
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-radius: 2rem;
+    display: flex;
+    padding: 0.25rem 1rem;
+    justify-content: center;
+    align-items: center;
+    background: var(--BG, #f9f5ea);
+  }
+
+  .productDetailSection .productInfor .buttonGroup .viewDistributionSystem svg {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.25rem;
+  }
+
+  .productDetailSection .productInfor .buttonGroup .viewDistributionSystem p {
+    background: linear-gradient(90deg, #515954 -7.47%, #2a603e 99.74%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "SVN-Helvetica Now";
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .productDetailSection .productInfor .userPersona {
+    font-size: 0.875rem;
+    letter-spacing: 0.03125rem;
+  }
+
+  .productDetailSection .productInfor .certi {
+    width: 100%;
+    display: flex;
+    margin-top: 1.25rem;
+  }
+
+  .productDetailSection .productInfor .certi img {
+    width: 3.25rem;
+height: 3.25rem;
+    margin-right: 1rem;
+  }
+
+  .productDetailSection .tabNavi {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .productDetailSection .tabNavi input[type="radio"] {
+    display: none;
+  }
+
+  .productDetailSection .tabNavi label {
+    color: var(--Foundation-Grey-grey-700, #414141);
+    font-family: "SVN-Helvetica Now";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    padding: 1rem;
+    width: fit-content;
+    text-wrap: nowrap;
+    height: fit-content;
+    text-align: center;
+    border-bottom: 1px solid var(--Foundation-Grey-grey-100, #ccc);
+  }
+
+  .productDetailSection .tabNavi input[type="radio"]:checked + label {
+    border-color: #165e4c;
+  }
+
+  .productDetailSection .detailContainer {
+    width: 100%;
+    margin: 1rem auto 0rem;
+    letter-spacing: 0.03125rem;
+    font-size: 0.875rem;
+  }
+}

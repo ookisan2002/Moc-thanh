@@ -1,0 +1,206 @@
+@import url("../../../root.css");
+@import url("../../../global.css");
+@import url("../../../Components/Button/styles.css");
+
+.tonChiLamViec {
+  width: 100%;
+  height: 49.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.tonChiLamViec .shelvePc {
+  width: 44.6875rem;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+.tonChiLamViec .shelveMb {
+  display: none;
+  z-index: 0;
+}
+
+.tonChiLamViec .clerk {
+  position: absolute;
+  bottom: 0;
+  right: 21.5rem;
+  width: 33.6875rem;
+  height: 38.8125rem;
+  z-index: 1;
+}
+
+.tonChiLamViec .leaf1 {
+  position: absolute;
+  top: 1.88rem;
+  left: 8.81rem;
+  width: 3.03794rem;
+  height: 2.59488rem;
+  z-index: 1;
+}
+
+.tonChiLamViec .leaf2 {
+  position: absolute;
+  top: 22.69rem;
+  left: 51.06rem;
+  width: 3.26331rem;
+  height: 2.78744rem;
+  transform: rotate(-68.131deg);
+  z-index: 1;
+}
+
+.tonChiLamViec .bird {
+  position: absolute;
+  top: 4.13rem;
+  left: 42.88rem;
+  width: 9.1285rem;
+  height: 6.89563rem;
+  z-index: 1;
+}
+
+.tonChiLamViec .warehouse {
+  position: absolute;
+  top: 31rem;
+  left: -9.22rem;
+  width: 46.79725rem;
+  height: 28.202rem;
+  z-index: 1;
+}
+
+.tonChiLamViec .road {
+  position: absolute;
+  bottom: 2.3rem;
+  left: -70.01rem;
+  width: 154.48938rem;
+  height: 25.74825rem;
+  transform: rotate(3.324deg);
+  z-index: 1;
+}
+
+.tonChiLamViec .sectionContent {
+  position: absolute;
+  top: 11.63rem;
+  left: 12.19rem;
+  display: flex;
+  width: 37rem;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+.tonChiLamViec .sectionSubTitle {
+  color: var(--Text-Text-Body-Medium-Emphasis-body-text-2);
+  font-family: "SVN-Helvetica Now";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 1.6rem */
+  letter-spacing: 0.00938rem;
+  margin-bottom: 1.5rem;
+}
+
+.tonChiLamViec .sectionTitle {
+  font-family: "SVN-Helvetica Now";
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  background: var(--Text-Title-text-2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2.44rem;
+}
+
+.tonChiLamViec .button-MocThanh {
+  width: 12.0625rem;
+}
+
+@media (max-width: 640px) {
+  .tonChiLamViec {
+    height: 36.63rem;
+  }
+  .tonChiLamViec .shelveMb {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 15.63894rem;
+    height: 21.91638rem;
+    bottom: -0.76rem;
+    left: 0;
+  }
+  .tonChiLamViec .shelvePc {
+    display: none;
+  }
+  .tonChiLamViec .clerk {
+    bottom: 0;
+    right: 0.82rem;
+    width: 14.01463rem;
+    height: 16.14669rem;
+    z-index: 3;
+  }
+  .tonChiLamViec .leaf1 {
+    top: 2.89rem;
+    left: 2.82rem;
+    width: 1.74556rem;
+    height: 1.491rem;
+  }
+
+  .tonChiLamViec .leaf2 {
+    top: 15.44rem;
+    left: 22.3rem;
+    width: 1.87506rem;
+    height: 1.60163rem;
+    transform: rotate(-224.131deg);
+  }
+  .tonChiLamViec .bird {
+    top: 1.44rem;
+    left: 16.94rem;
+    width: 4.0625rem;
+    height: 3.0625rem;
+    z-index: 1;
+  }
+  
+  .tonChiLamViec .warehouse {
+    position: absolute;
+    top: 20.39rem;
+    left: 4.47rem;
+    width: 22.6745rem;
+    height: 13.66463rem;
+    transform: rotate(-175.469deg);
+    z-index: 1;
+  }
+  .tonChiLamViec .sectionContent {
+    top: 5.62rem;
+    left: 1rem;
+    width: 21.4375rem;
+    align-items: center;
+  }
+
+  .tonChiLamViec .sectionSubTitle {
+    font-size: 0.625rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+  
+  .tonChiLamViec .sectionTitle {
+    font-size: 1.25rem;
+    font-style: normal;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .tonChiLamViec .button-MocThanh {
+    width: 11.125rem;
+  }
+  .tonChiLamViec .road {
+    position: absolute;
+    bottom: -4.01rem;
+    left: -26.77rem;
+    width: 64.27031rem;
+    height: 10.71169rem;
+    transform: rotate(1.324deg);
+    z-index: 1;
+  }
+}

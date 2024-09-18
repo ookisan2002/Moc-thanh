@@ -1,0 +1,362 @@
+@import url("../../../root.css");
+@import url("../../../global.css");
+@import url("../../../Components/Button/styles.css");
+
+.sectionContainer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: fit-content;
+  background-color: #15340d;
+  border-radius: 3rem 3rem 0 0;
+}
+
+.ketNoiVoiChungToi {
+  margin: 11.81rem auto 0;
+  width: 75rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+.tinTucMoiNhat {
+  margin: 10.52rem auto 7.5rem;
+  width: 75rem;
+  position: relative;
+  z-index: 2;
+}
+
+.sectionContainer .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 67.5rem;
+  width: 100vw;
+  z-index: 0;
+  object-fit: cover;
+}
+
+.ketNoiVoiChungToi .sectionTitle .title {
+  color: #f9f5ea;
+  text-align: start;
+  font-family: Philosopher;
+  font-size: 2.62188rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.05244rem;
+}
+
+.ketNoiVoiChungToi .sectionTitle span {
+  font-family: Philosopher;
+  font-size: 7.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  width: 35.25rem;
+  background: linear-gradient(
+    180deg,
+    #f9f5ea 30.29%,
+    rgba(249, 245, 234, 0) 116.09%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ketNoiVoiChungToi .sectionTitle .subtitle {
+  width: 28.5625rem;
+  color: var(--text-text-body-0);
+  font-family: "SVN-Helvetica Now";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.02rem;
+  opacity: 0.7;
+}
+
+.ketNoiVoiChungToi .social {
+  margin-top: 1.56rem;
+  display: flex;
+}
+
+.ketNoiVoiChungToi .social a {
+  margin-right: 0.86rem;
+}
+
+.ketNoiVoiChungToi form {
+  width: 31.8125rem;
+  display: grid;
+  grid-column: span;
+  gap: 2.625rem;
+}
+
+.ketNoiVoiChungToi form input {
+  outline: none;
+  font-size: 1rem;
+  padding-bottom: 0.94rem;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  background: transparent;
+
+  color: var(--text-text-body-0);
+  font-family: "Helvetica Neue";
+}
+
+.ketNoiVoiChungToi form input::placeholder {
+  color: var(--text-text-body-0);
+  font-family: "Helvetica Neue";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.ketNoiVoiChungToi form button {
+  background-color: transparent;
+}
+
+.tinTucMoiNhat .sectionTitle {
+  color: var(--text-text-body-0);
+  font-family: Philosopher;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.12rem;
+  margin-bottom: var(--36, 2.25rem);
+}
+
+.tinTucMoiNhat .blogItemSmall .blogImg {
+  width: 10.5rem;
+  height: 7rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-right: 0.94rem;
+}
+
+.tinTucMoiNhat .blogItemBig {
+  margin-right: 1.25rem;
+  height: fit-content;
+}
+
+.tinTucMoiNhat .blogItemSmall {
+  margin-bottom: 1.25rem;
+  display: flex;
+}
+
+.tinTucMoiNhat .blogItemBig .blogImg {
+  width: 23.125rem;
+  height: 17.3125rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 1.09rem;
+}
+
+[class*="blogItem"] .blogImg img {
+  width: 100%;
+  height: 100%;
+}
+
+[class*="blogItem"] {
+  cursor: pointer;
+}
+
+[class*="blogItem"]:hover .blogImg img {
+  transform: scale(1.1);
+  transform-origin: center;
+  transition: all 0.2s ease;
+}
+
+.tinTucMoiNhat .sectionContent {
+  display: flex;
+}
+
+.tinTucMoiNhat .internalNews {
+  border-radius: 0.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.25rem 0.75rem;
+  color: var(--text-text-body-0, #fff);
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 1.25rem;
+  font-family: "SVN-Helvetica Now";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tinTucMoiNhat .blogDescript svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  margin-right: 0.38rem;
+}
+
+.tinTucMoiNhat .blogDescript .date {
+  color: var(--text-text-body-0);
+  font-family: "SVN-Helvetica Now";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.tinTucMoiNhat .blogItemBig .blogDescript .blogTitle {
+  width: 19.75rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+  color: var(--text-text-body-0, #fff);
+  font-family: "SVN-Helvetica Now";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0.5rem;
+}
+
+.tinTucMoiNhat .blogItemSmall .blogDescript .blogTitle {
+  width: 13.5625rem;
+  height: 3.25rem;
+  flex-shrink: 0;
+  color: var(--text-text-body-0, #fff);
+  font-family: "SVN-Helvetica Now";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0.5rem;
+}
+
+.tinTucMoiNhat .blogItemSmall .blogDescript {
+  margin-top: 1.09rem;
+}
+
+.tinTucMoiNhat .blogSmallContainer {
+  padding-left: 1.25rem;
+  border-left: 0.0625rem rgba(255, 255, 255, 0.1) solid;
+}
+
+@media (max-width: 640px) {
+  .ketNoiVoiChungToi,
+  .tinTucMoiNhat {
+    padding: 0 1rem;
+    width: 100%;
+  }
+  .ketNoiVoiChungToi {
+    margin: 5rem auto 0;
+    flex-direction: column;
+  }
+  .tinTucMoiNhat {
+    margin: 4rem auto 4rem;
+  }
+  .sectionContainer .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 28.4375rem;
+    width: 42.8125rem;
+    z-index: 0;
+  }
+  .ketNoiVoiChungToi .sectionTitle .title {
+    letter-spacing: -0.0325rem;
+    font-size: 1.625rem;
+  }
+  .ketNoiVoiChungToi .sectionTitle span {
+    font-size: 3.75rem;
+    width: fit-content;
+  }
+  .ketNoiVoiChungToi .sectionTitle .subtitle {
+    font-size: 0.875rem;
+    width: 20.125rem;
+    line-height: 160%;
+  }
+  .ketNoiVoiChungToi .social {
+    margin-top: 1.25rem;
+    display: flex;
+  }
+
+  .ketNoiVoiChungToi .social a {
+    margin-right: 0.5rem;
+  }
+
+  .ketNoiVoiChungToi form {
+    width: 100%;
+    display: grid;
+    grid-column: span;
+    gap: 2.38rem;
+    margin-top: 2rem;
+  }
+
+  .ketNoiVoiChungToi form input {
+    font-size: 0.875rem;
+    padding-bottom: 0.62rem;
+  }
+
+  .ketNoiVoiChungToi form input::placeholder {
+    font-size: 0.875rem;
+  }
+
+  .tinTucMoiNhat .sectionTitle {
+    letter-spacing: -0.0375rem;
+    margin-bottom: 1.75rem;
+    font-size: 1.875rem;
+    font-size: 1.875rem;
+  }
+  .tinTucMoiNhat .sectionContent {
+    overflow-x: scroll;
+  }
+
+  .tinTucMoiNhat [class*="blogItem"] .blogImg {
+    width: 13.167rem;
+    height: 9.875rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-right: unset;
+  }
+
+  .tinTucMoiNhat [class*="blogItem"] {
+    margin: 0 0.75rem 0 0 !important;
+    display: block;
+  }
+
+  .tinTucMoiNhat .internalNews {
+    display: none;
+  }
+
+  .tinTucMoiNhat .blogDescript svg {
+    width: 0.875rem;
+    height: 0.875rem;
+    margin-right: 0.25rem;
+  }
+
+  .tinTucMoiNhat .blogDescript .date {
+    font-size: 0.75rem;
+  }
+
+  .tinTucMoiNhat [class*="blogItem"] .blogDescript .blogTitle {
+    font-size: 0.875rem;
+    height: 2.5625rem;
+    width: 100%;
+  }
+
+  .tinTucMoiNhat .blogSmallContainer {
+    padding-left: unset;
+    display: flex;
+    border-left: none;
+  }
+}

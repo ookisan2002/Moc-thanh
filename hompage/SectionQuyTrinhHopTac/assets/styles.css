@@ -1,0 +1,259 @@
+@import url("../../../root.css");
+@import url("../../../global.css");
+
+.quyTrinhHopTac {
+  margin: 1.25rem auto 0;
+  width: 75rem;
+}
+
+.quyTrinhHopTac .sectionTitle {
+  text-align: center;
+  font-family: Philosopher;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.08rem;
+  background: var(--Text-Title-text-2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 3.37rem;
+}
+
+.quyTrinhHopTac .dashedLine{
+  display: none;
+}
+
+.quyTrinhHopTac .sectionContent {
+  position: relative;
+  width: 100%;
+  height: 49.3125rem;
+  margin-top: 4.69rem;
+}
+
+.quyTrinhHopTac .sectionBackground {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+
+.quyTrinhHopTac .line1 .stepContent {
+  display: flex;
+}
+
+.quyTrinhHopTac .stepTitle {
+  color: var(--Foundation-Grey-grey-500);
+  font-family: "SVN-Helvetica Now";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.quyTrinhHopTac .step1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.quyTrinhHopTac .step1 .stepTitle {
+  width: 10rem;
+}
+
+.quyTrinhHopTac [class*="step"] img {
+  display: none;
+}
+
+.quyTrinhHopTac .step2 {
+  position: absolute;
+  top: 4.19rem;
+  left: 29.69rem;
+}
+
+.quyTrinhHopTac .step2 .stepTitle {
+  width: 14.375rem;
+}
+
+.quyTrinhHopTac .step3 {
+  position: absolute;
+  top: 2.25rem;
+  right: 2.25rem;
+}
+
+.quyTrinhHopTac .step3 .stepTitle {
+  width: 10.875rem;
+}
+
+.quyTrinhHopTac .stepIndex {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6.25rem;
+  background: var(--Background-Green-Yellow);
+  color: var(--text-text-body-0);
+  text-align: center;
+  font-family: "SVN-Helvetica Now";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.quyTrinhHopTac .line1 .stepIndex {
+  margin-right: var(--12);
+}
+
+.quyTrinhHopTac .line2 .stepIndex {
+  margin-bottom: var(--12);
+}
+
+.quyTrinhHopTac .step6 {
+  position: absolute;
+  left: 0;
+  top: 34.38rem;
+}
+
+.quyTrinhHopTac .step6 .stepTitle {
+  width: 15.4375rem;
+}
+
+.quyTrinhHopTac .step5 {
+  position: absolute;
+  left: 26.38rem;
+  top: 36.56rem;
+}
+
+.quyTrinhHopTac .step5 .stepTitle {
+  width: 23.3125rem;
+}
+
+.quyTrinhHopTac .step4 {
+  position: absolute;
+  right: 3.62rem;
+  top: 31.88rem;
+}
+
+.quyTrinhHopTac .step4 .stepTitle {
+  width: 14.8125rem;
+}
+
+@media (max-width: 640px) {
+  .quyTrinhHopTac {
+    padding: 0 1rem;
+    width: 100%;
+  }
+  .quyTrinhHopTac .sectionBackground {
+    display: none;
+  }
+  .quyTrinhHopTac .sectionTitle {
+    margin-top: 0.69rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 0.01563rem;
+  }
+  .quyTrinhHopTac .sectionContent {
+    margin-top: var(--36);
+  }
+  .quyTrinhHopTac .stepIndex {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    margin: 0 var(--12) 0 0 !important;
+  }
+  .quyTrinhHopTac .stepContent {
+    display: flex;
+  }
+  .quyTrinhHopTac .stepTitle {
+    font-size: 0.875rem;
+    letter-spacing: 0.03125rem;
+  }
+  .quyTrinhHopTac [class*="line"] > [class*="step"] {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .quyTrinhHopTac [class*="line"] > [class*="step"]:not(:last-of-type)::after{
+    content: '';
+    position: absolute;
+    border: 0.0625rem #F79C0B dashed;
+    height: 85%;
+    top: 3rem;
+    left: 1.1rem;
+
+  }
+
+  .quyTrinhHopTac .step3::after{
+    content: '';
+    position: absolute;
+    border: 0.0625rem #F79C0B dashed;
+    height: 85%;
+    top: 3rem;
+    left: 1.1rem;
+
+  }
+
+  .quyTrinhHopTac .step1 .stepTitle {
+    width: 11.25rem;
+  }
+
+  .quyTrinhHopTac .step2 .stepTitle {
+    width: 12.1875rem;
+  }
+  .quyTrinhHopTac .step3 .stepTitle {
+    width: 10.875rem;
+  }
+  .quyTrinhHopTac .step4 .stepTitle {
+    width: 13.625rem;
+  }
+
+  .quyTrinhHopTac .step5 .stepTitle {
+    width: 17.875rem;
+  }
+  .quyTrinhHopTac .step6 .stepTitle {
+    width: 15.1875rem;
+  }
+
+  .quyTrinhHopTac .step1 img {
+    margin: 1.25rem 0 1.25rem 3rem;
+    width: 13.3125rem;
+    height: 10.36013rem;
+  }
+
+  .quyTrinhHopTac .step2 img {
+    margin: 1.25rem 0 1.25rem 3rem;
+    width: 12.875rem;
+    height: 12.1875rem;
+  }
+  .quyTrinhHopTac .step3 img {
+    margin: 1.25rem 0 1.25rem 3rem;
+    width: 14.16331rem;
+    height: 7.375rem;
+  }
+  .quyTrinhHopTac .step4 img {
+    margin: 1.25rem 0 1.25rem 3rem;
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+
+  .quyTrinhHopTac .step5 img {
+    margin: 1.25rem 0 1.25rem 3rem;
+    width: 12.125rem;
+    height: 12.125rem;
+  }
+  .quyTrinhHopTac .step6 img {
+    margin: 1.25rem 0 1.25rem 3rem;
+    width: 14.31244rem;
+    height: 11.80938rem;
+  }
+
+  .quyTrinhHopTac [class*="step"] img {
+    display: block;
+  }
+}

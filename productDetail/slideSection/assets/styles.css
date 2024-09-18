@@ -1,0 +1,210 @@
+@import url("../../../root.css");
+@import url("../../../global.css");
+@import url("../../../Components/Button/styles.css");
+
+.relatedProduct {
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
+  position: relative;
+}
+
+.relatedProduct .sectionTitle {
+  background: var(
+    --Text-Title-text-2,
+    linear-gradient(91deg, #515954 -6.81%, #2a603e 56.73%, #9db6a6 121.41%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Philosopher;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 3.3rem */
+  letter-spacing: -0.055rem;
+  margin-bottom: 2rem;
+}
+
+.relatedProduct .mySwiperRelatedProduct {
+  width: 100%;
+}
+
+.relatedProduct .mySwiperRelatedProduct .relatedProductItem {
+  margin: 0 1rem;
+  width: fit-content;
+}
+
+.relatedProduct .mySwiperRelatedProduct .relatedProductItem img {
+  width: 16.625rem;
+  height: 16.5625rem;
+  margin-bottom: 1rem;
+}
+
+.relatedProduct .mySwiperRelatedProduct .relatedProductItem p {
+  color: var(--Text-Text-Body-Sub, #a68556);
+  text-align: center;
+  font-family: "SVN-Helvetica Now";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 1.6rem */
+  letter-spacing: 0.00938rem;
+}
+
+.relatedProduct .mySwiperRelatedProduct .relatedProductItem h3 {
+  background: var(
+    --Text-Title-text-2,
+    linear-gradient(91deg, #515954 -6.81%, #2a603e 56.73%, #9db6a6 121.41%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "SVN-Helvetica Now";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 2.4rem */
+}
+
+.relatedProduct .swiper-button-prev {
+  position: absolute;
+  top: 0;
+  right: 4.25rem;
+  left: unset !important;
+  margin-top: unset !important;
+}
+
+.relatedProduct .swiper-button-next {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: unset !important;
+}
+
+.relatedProduct .swiper-button-prev .activeArrow {
+  transform: rotateZ(180deg);
+}
+
+.relatedProduct .swiper-button-next .disableArrow {
+  transform: rotateZ(180deg);
+}
+
+.relatedProduct [class*="swiper-button"] {
+  opacity: 1 !important;
+}
+
+.relatedProduct [class*="swiper-button"] img {
+  width: 3.25rem;
+  height: 3.25rem;
+}
+
+.relatedProduct [class*="swiper-button"] .disableArrow {
+  display: none;
+}
+
+.relatedProduct [class*="swiper-button"] .activeArrow {
+  display: block;
+}
+
+.relatedProduct [class*="swiper-button"].swiper-button-disabled .disableArrow {
+  display: block;
+}
+
+.relatedProduct [class*="swiper-button"].swiper-button-disabled .activeArrow {
+  display: none;
+}
+
+.relatedProduct [class*="swiper-button"]::after {
+  display: none;
+}
+
+@media (max-width: 639px) {
+  .relatedProduct {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 1.5rem;
+    position: relative;
+  }
+
+  .relatedProduct .sectionTitle {
+    letter-spacing: 0.01563rem;
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .relatedProduct .mySwiperRelatedProduct {
+    width: 100%;
+  }
+
+  .relatedProduct .mySwiperRelatedProduct .relatedProductItem {
+    margin: 0 0.5rem;
+    width: fit-content;
+  }
+
+  .relatedProduct .mySwiperRelatedProduct .relatedProductItem img {
+    width: 10.25731rem;
+height: 10.21875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .relatedProduct .mySwiperRelatedProduct .relatedProductItem p {
+    letter-spacing: 0.00625rem;
+    font-size: 0.75rem;
+  }
+
+  .relatedProduct .mySwiperRelatedProduct .relatedProductItem h3 {
+    font-size: 1rem;
+  }
+
+  .relatedProduct .swiper-button-prev {
+    position: absolute;
+    top: 10.06rem;
+    right: 20.48rem;
+  }
+
+  .relatedProduct .swiper-button-next {
+    position: absolute;
+    top: 10.06rem;
+    right: 1rem;
+  }
+
+  .relatedProduct .swiper-button-prev .activeArrow {
+    transform: rotateZ(180deg);
+  }
+
+  .relatedProduct .swiper-button-next .disableArrow {
+    transform: rotateZ(180deg);
+  }
+
+  .relatedProduct [class*="swiper-button"] {
+    opacity: 1 !important;
+  }
+
+  .relatedProduct [class*="swiper-button"] img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .relatedProduct [class*="swiper-button"] .disableArrow {
+    display: none;
+  }
+
+  .relatedProduct [class*="swiper-button"] .activeArrow {
+    display: block;
+  }
+
+  .relatedProduct
+    [class*="swiper-button"].swiper-button-disabled
+    .disableArrow {
+    display: block;
+  }
+
+  .relatedProduct [class*="swiper-button"].swiper-button-disabled .activeArrow {
+    display: none;
+  }
+
+  .relatedProduct [class*="swiper-button"]::after {
+    display: none;
+  }
+}

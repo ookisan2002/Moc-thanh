@@ -1,0 +1,44 @@
+@import url("../../../root.css");
+@import url("../../../global.css");
+
+.button-MocThanh {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0.67708rem 1.14583rem 0.67708rem var(--32, 1.66667rem);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.83333rem;
+    border-radius: var(--32, 1.66667rem);
+    background: var(
+      --Background-Green-Yellow,
+      linear-gradient(90deg, #32890e -6.93%, #c39b0d 100%)
+    );
+  }
+  .button-MocThanh .title-button {
+    color: var(--text-text-body-0, #fff);
+    leading-trim: both;
+    text-edge: cap;
+  
+    position: relative;
+    /* Button/14 - R */
+    font-family: "SVN-Helvetica Now";
+    font-size: 0.72917rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 0.875rem */
+    text-transform: capitalize;
+  }
+  .button-MocThanh .title-button::after {
+    content: "";
+    width: 0.05208rem;
+    height: 0.83333rem;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    right: -0.83333rem;
+    top: 0;
+  }
+  .button-MocThanh .icon-btn {
+    width: var(--24, 1.25rem);
+    height: var(--24, 1.25rem);
+  }

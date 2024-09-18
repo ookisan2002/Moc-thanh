@@ -1,0 +1,12 @@
+<svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 1618873197">
+<circle id="Ellipse 2045" cx="36.5269" cy="36.5962" r="36.1245" fill="white" fill-opacity="0.57"/>
+<path id="Polygon 5" d="M50.916 36.5969L29.332 49.0584L29.332 24.1353L50.916 36.5969Z" fill="url(#paint0_linear_1230_16329)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1230_16329" x1="36.5267" y1="20.2139" x2="36.5267" y2="50.9862" gradientUnits="userSpaceOnUse">
+<stop stop-color="#32890E"/>
+<stop offset="1" stop-color="#C39B0D"/>
+</linearGradient>
+</defs>
+</svg>

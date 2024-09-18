@@ -1,0 +1,363 @@
+@import url("../../../root.css");
+@import url("../../../global.css");
+@import url("../../../Components/Button/styles.css");
+
+.sanPhamDangTuHao {
+  width: 100%;
+  height: 52.9375rem;
+  position: relative;
+  margin-top: 5.31rem;
+}
+
+.sanPhamDangTuHao .sectionBackground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.sanPhamDangTuHao .sectionContentContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sanPhamDangTuHao .sectionSubTitle {
+  font-family: Philosopher;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.055rem;
+  background: var(
+    --Text-Title-text-2,
+    linear-gradient(91deg, #515954 -6.81%, #2a603e 56.73%, #9db6a6 121.41%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 2.69rem;
+}
+
+.sanPhamDangTuHao .sectionTitle {
+  background: var(
+    --Text-Title-text-2,
+    linear-gradient(91deg, #515954 -6.81%, #2a603e 56.73%, #9db6a6 121.41%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Philosopher;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.08rem;
+  text-align: center;
+}
+
+.sanPhamDangTuHao .sectionContent {
+  width: 81.4375rem;
+  height: 39.13rem;
+  margin: 1.88rem auto 0;
+  position: relative;
+}
+
+.sanPhamDangTuHao .shelve {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sanPhamDangTuHao .sectionContent .background {
+  position: absolute;
+  top: 0;
+  left: 41rem;
+  transform: translateX(-50%);
+  z-index: 0;
+  background-color: #f9f5ea;
+  width: 75.0625rem;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  background: #f9f5ea;
+
+  box-shadow: 8px 10px 15.5px 0px rgba(255, 255, 255, 0.72) inset;
+}
+
+.sanPhamDangTuHao .sectionContent .tabNavi {
+  display: flex;
+  justify-content: center;
+  margin: 3.25rem 0 1.56rem;
+}
+
+.sanPhamDangTuHao .sectionContent .tabNavi input {
+  visibility: hidden;
+  display: none;
+}
+
+.sanPhamDangTuHao .sectionContent .tabNavi label {
+  color: var(--Foundation-Grey-grey-300, #929292);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "SVN-Helvetica Now";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.sanPhamDangTuHao .sectionContent .tabNavi input[type="radio"]:checked + label {
+  position: relative;
+  background: var(
+    --Text-Title-text-2,
+    linear-gradient(91deg, #515954 -6.81%, #2a603e 56.73%, #9db6a6 121.41%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  border-bottom: 0.0625rem #2a603e solid;
+}
+
+.sanPhamDangTuHao .sectionContent .tabNavi label:not(:last-of-type) {
+  margin-right: 2.12rem;
+}
+
+.sanPhamDangTuHao .swiper {
+  width: 64.6825rem;
+  height: 22.1875rem;
+}
+
+.sanPhamDangTuHao .swiper .swiper-slide {
+  width: 18.4375rem !important;
+  height: 22.1875rem;
+  position: relative;
+  padding: 2.5rem 0 0 2.5rem;
+  margin: 0 1.56rem;
+}
+
+.sanPhamDangTuHao .productBg {
+  width: 100%;
+  height: 19.6875rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.sanPhamDangTuHao .swiper .swiper-slide p {
+  color: #a68556;
+  font-family: "SVN-Helvetica Now";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 0.9rem */
+  text-transform: uppercase;
+}
+
+.sanPhamDangTuHao .swiper .swiper-slide a {
+  width: fit-content;
+  background: var(
+    --Text-Title-text-2,
+    linear-gradient(91deg, #515954 -6.81%, #2a603e 56.73%, #9db6a6 121.41%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "SVN-Helvetica Now";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 1.8rem */
+  text-transform: capitalize;
+  display: flex;
+  margin-bottom: 4.27rem;
+}
+
+.sanPhamDangTuHao .swiper .swiper-slide a img {
+  width: 1.75rem;
+  transform: translateY(0.2rem);
+  height: 1.75rem;
+}
+
+.sanPhamDangTuHao .swiper .productItem {
+  width: 16.13731rem;
+  height: 12.83244rem;
+}
+
+.sanPhamDangTuHao .sectionContent .swiper-button-prev {
+  width: 2.375rem;
+  height: 3.5625rem;
+  position: absolute;
+  top: 12.63rem;
+  left: -2.375rem;
+}
+
+.sanPhamDangTuHao .sectionContent .swiper-button-next {
+  width: 2.375rem;
+  height: 3.5625rem;
+  position: absolute;
+  top: 12.63rem;
+  right: -2.375rem;
+  transform: rotateZ(180deg) !important;
+}
+
+.sanPhamDangTuHao .button-MocThanh {
+  width: 10.875rem;
+  margin: 3.44rem auto 0;
+}
+
+@media (max-width: 639px) {
+  .sanPhamDangTuHao {
+    height: 31rem;
+    margin-top: 0;
+    background: var(--BG, #f9f5ea);
+    overflow: hidden;
+  }
+
+  .sanPhamDangTuHao .sectionBackground {
+    width: 48.3125rem;
+    height: 25.5625rem;
+    position: absolute;
+    top: 2.69rem;
+    left: -12.44rem;
+    z-index: 0;
+  }
+
+  .sanPhamDangTuHao .sectionContentContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sanPhamDangTuHao .sectionSubTitle {
+    letter-spacing: -0.0275rem;
+    font-size: 1.375rem;
+    margin-top: 4.06rem;
+  }
+
+  .sanPhamDangTuHao .sectionTitle {
+    letter-spacing: -0.0375rem;
+    font-size: 1.875rem;
+  }
+
+  .sanPhamDangTuHao .sectionContent {
+    width: 22.58513rem;
+    height: 20.19rem;
+    margin: 1.25rem auto 0;
+  }
+
+  .sanPhamDangTuHao .shelve {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .sanPhamDangTuHao .sectionContent .background {
+    width: 20.817rem;
+    left: 11.3rem;
+    border-radius: 0.625rem 0.625rem 0rem 0rem;
+  }
+
+  .sanPhamDangTuHao .sectionContent .tabNavi {
+    display: flex;
+    justify-content: start;
+    margin: 1.69rem auto 0.63rem;
+    width: 18.75rem;
+    overflow: scroll;
+  }
+
+  .sanPhamDangTuHao .sectionContent .tabNavi input {
+    visibility: hidden;
+    display: none;
+  }
+
+  .sanPhamDangTuHao .sectionContent .tabNavi label {
+    font-size: 0.75rem;
+    width: fit-content;
+    text-wrap: nowrap;
+  }
+
+  .sanPhamDangTuHao .sectionContent .tabNavi label:not(:last-of-type) {
+    margin-right: 1.5rem;
+  }
+
+  .sanPhamDangTuHao .swiper {
+    width: 19.25rem;
+    height: 10.875rem;
+  }
+
+  .sanPhamDangTuHao .swiper .swiper-slide {
+    width: 9.125rem !important;
+    height: 10.875rem;
+    position: relative;
+    padding: 1.12rem 0 0 1.12rem;
+    margin: 0 0.25rem;
+  }
+
+  .sanPhamDangTuHao .productBg {
+    height: 9.75rem;
+  }
+
+  .sanPhamDangTuHao .swiper .swiper-slide p {
+    font-size: 0.625rem;
+  }
+
+  .sanPhamDangTuHao .swiper .swiper-slide a {
+    font-size: 0.875rem;
+    margin-bottom: 1.66rem;
+  }
+
+  .sanPhamDangTuHao .swiper .swiper-slide a img {
+    width: 1.125rem;
+    transform: translateY(0.2rem);
+    height: 1.125rem;
+  }
+
+  .sanPhamDangTuHao .swiper .productItem {
+    width: 7.72806rem;
+    height: 6.14531rem;
+  }
+
+  .sanPhamDangTuHao .sectionContent .swiper-button-prev {
+    width: 1.17981rem;
+    height: 1.76975rem;
+    position: absolute;
+    top: 8.74rem;
+    left: 0.32rem;
+  }
+
+  .sanPhamDangTuHao .sectionContent .swiper-button-next {
+    width: 1.17981rem;
+    height: 1.76975rem;
+    position: absolute;
+    top: 8.74rem;
+    right: 0.32rem;
+    transform: rotateZ(180deg) !important;
+  }
+
+  .sanPhamDangTuHao [class*="swiper-button"] path{
+    stroke: green;
+  }
+
+  .sanPhamDangTuHao .button-MocThanh {
+    width: 10.25rem;
+    margin: 2.75rem auto 0;
+    font-size: 0.8125rem;
+  }
+}
