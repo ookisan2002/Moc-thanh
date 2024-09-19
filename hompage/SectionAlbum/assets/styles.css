@@ -126,8 +126,7 @@
 .albumSection .imgAlbum6 .imgAlbumDesc .logo {
   width: 1.71525rem;
   height: 1.71531rem;
-  margin-right: 1rem;
-  margin-left: 0.4rem;
+  margin: 0.5rem 1rem 0.5rem 0.4rem;
 }
 
 .albumSection .imgAlbum6 .imgAlbumDesc p {
