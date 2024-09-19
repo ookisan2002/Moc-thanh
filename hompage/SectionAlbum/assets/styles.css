@@ -87,6 +87,12 @@
   overflow: hidden;
 }
 
+.albumSection .imgAlbum6 > div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
 .albumSection .imgAlbum6 .img {
   width: 100%;
   height: 100%;

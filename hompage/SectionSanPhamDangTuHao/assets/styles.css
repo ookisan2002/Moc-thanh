@@ -93,10 +93,22 @@
   box-shadow: 8px 10px 15.5px 0px rgba(255, 255, 255, 0.72) inset;
 }
 
+.sanPhamDangTuHao .sectionContent .relativeContainer{
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  z-index: 10;
+}
+
 .sanPhamDangTuHao .sectionContent .tabNavi {
   display: flex;
   justify-content: center;
   margin: 3.25rem 0 1.56rem;
+}
+
+.sanPhamDangTuHao .tabNavi .tabNaviContainer {
+  display: flex;
+  width: fit-content;
 }
 
 .sanPhamDangTuHao .sectionContent .tabNavi input {
